@@ -1,6 +1,6 @@
 # rba-mobile-client-app-pililka
 
 
--cordova add platform <android><ios>.
+<p>-cordova add platform <android><ios>.</p>
 -cordova prepare.
 -cordova run android --device -- --lr.
