@@ -1,0 +1,70 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-clipboard": {
+      "PACKAGE_NAME": "com.rentbrand.app.polyglot"
+    },
+    "cordova-plugin-backbutton": {
+      "PACKAGE_NAME": "com.rentbrand.app.polyglot"
+    },
+    "cordova-plugin-cleartext": {
+      "PACKAGE_NAME": "com.rentbrand.app.polyglot"
+    },
+    "cordova-plugin-deeplinks": {
+      "PACKAGE_NAME": "com.rentbrand.app.polyglot"
+    },
+    "cordova-plugin-geolocation": {
+      "GPS_REQUIRED": "true",
+      "PACKAGE_NAME": "com.rentbrand.app.polyglot"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.rentbrand.app.polyglot"
+    },
+    "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "com.rentbrand.app.polyglot"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "com.rentbrand.app.polyglot"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.rentbrand.app.polyglot"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.rentbrand.app.polyglot"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.rentbrand.app.polyglot"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.rentbrand.app.polyglot"
+    },
+    "cordova-plugin-x-socialsharing": {
+      "PHOTO_LIBRARY_ADD_USAGE_DESCRIPTION": "This app requires photo library access to function properly.",
+      "PHOTO_LIBRARY_USAGE_DESCRIPTION": "This app requires photo library access to function properly.",
+      "PACKAGE_NAME": "com.rentbrand.app.polyglot"
+    },
+    "cordova-plugin-firebasex": {
+      "FIREBASE_ANALYTICS_COLLECTION_ENABLED": "true",
+      "FIREBASE_PERFORMANCE_COLLECTION_ENABLED": "true",
+      "FIREBASE_CRASHLYTICS_COLLECTION_ENABLED": "true",
+      "PACKAGE_NAME": "com.rentbrand.app.polyglot"
+    }
+  },
+  "dependent_plugins": {
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "com.rentbrand.app.polyglot"
+    },
+    "cordova-plugin-androidx": {
+      "PACKAGE_NAME": "com.rentbrand.app.polyglot"
+    },
+    "cordova-plugin-androidx-adapter": {
+      "PACKAGE_NAME": "com.rentbrand.app.polyglot"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Полиглот",
+  "short_name": "Полиглот",
+  "version": "com.rentbrand.app.pililka",
+  "description": "Приложение с программой лояльности.  \r\n        Брендированное мобильное приложение с программой лояльности за 99 рублей в день.",
+  "author": "Apache Cordova Team",
+  "icons": [],
+  "orientation": "portrait",
+  "start_url": "index.html"
+}

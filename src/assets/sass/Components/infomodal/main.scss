@@ -1,0 +1,38 @@
+.modal-wrapper {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    z-index: 100000001;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(34, 60, 80, 0.2);
+
+    .modal-container {
+        box-shadow: -1px 1px 8px 0px rgba(34, 60, 80, 0.2);
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 75%;
+        animation: showModalContainer .4s;
+
+        @keyframes showModalContainer {
+            from {
+                opacity: 0;
+            } to {
+                opacity: 1;
+            }
+        }
+
+        .modal-text {
+            font-size: 15px;
+            text-align: center;
+            color: $primary-color;
+            font-weight: 600;
+        }
+    }
+  }

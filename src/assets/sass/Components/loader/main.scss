@@ -1,0 +1,29 @@
+.preloader-wrapper {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    z-index: 100000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(34, 60, 80, 0.2);
+
+    .preloader-container {
+        box-shadow: -1px 1px 8px 0px rgba(34, 60, 80, 0.2);
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: showPreloaderContainer .4s;
+
+        @keyframes showPreloaderContainer {
+            from {
+                opacity: 0;
+            } to {
+                opacity: 1;
+            }
+        }
+    }
+  }
