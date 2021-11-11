@@ -2,5 +2,5 @@
 
 
 <p>-cordova add platform <android><ios>.</p>
--cordova prepare.
--cordova run android --device -- --lr.
+<p>-cordova prepare.</p>
+<p>-cordova run android --device -- --lr.</p>
