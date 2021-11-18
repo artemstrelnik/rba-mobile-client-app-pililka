@@ -20,17 +20,13 @@
   margin-top: 10px;
 
   .loyal-detail-presents-text {
-    color: $primary-color;
+    color: #000000;
   }
 }
 
 .loyal-detail-progress-container {
   height: 50px;
-  background: linear-gradient(
-    103.9deg,
-    $primary-color 0%,
-    $secondary-color 100%
-  );
+  background: #DD76A5;
   border-radius: 10px;
   padding: 15px 10px 5px 10px;
   margin: 15px 15px 0 15px;
@@ -46,10 +42,10 @@
       border-radius: 6px 0 0 6px;
       height: 20px;
       width: 85%;
-      background-color: #909090;
+      background-color: #EAABC8;
 
       &.active {
-        background-color: #f8be14;
+        background-color: #FFFFFF;
         height: 100%;
         width: 0%;
       }
@@ -62,7 +58,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #909090;
+      background-color: #EAABC8;
     }
   }
 
@@ -85,6 +81,6 @@
 
   .loyal-detail-text {
     padding-left: 10px;
-    color: #909090;
+    color: #000000;
   }
 }

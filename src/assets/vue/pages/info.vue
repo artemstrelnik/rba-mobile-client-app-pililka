@@ -2,7 +2,7 @@
   <f7-page class="info">
     <f7-navbar>
       <f7-nav-left>
-        <f7-link icon-f7="chevron_left" @click="$f7router.back()"></f7-link>
+        <f7-link color="black" icon-f7="chevron_left" @click="$f7router.back()"></f7-link>
       </f7-nav-left>
       <f7-nav-title>
         Информация

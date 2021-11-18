@@ -2,7 +2,7 @@
   <div class="page">
     <f7-navbar>
       <f7-nav-left>
-        <f7-link icon-f7="chevron_left" @click="getBack"></f7-link>
+        <f7-link color='black' icon-f7="chevron_left" @click="getBack"></f7-link>
       </f7-nav-left>
       <f7-nav-title>
         {{ CONFIG.COMPANY_NAME }}
@@ -67,7 +67,7 @@
 
     <div v-if="data.desc" class="loyal-detail-footer">
       <div class="loyal-detail-icon-container">
-        <f7-icon class="loyal-detail-icon" material="info" />
+        <img :src="require('./../../images/info-icon.svg').default">
       </div>
       <p class="loyal-detail-text">
         {{ data.desc }}

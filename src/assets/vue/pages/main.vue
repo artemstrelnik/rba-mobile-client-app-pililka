@@ -74,10 +74,10 @@
                     ? promo.files[0].url
                     : require('../../images/mainDiscount.svg').default
                 "
-                style="width: 100px;"
+                style="width: 100px;border-radius: 4px"
               />
             </div>
-            <div class="card-content card-content-padding">
+            <div class="card-content card-content-padding" style="background: #FFFFFF; width: 100%">
               <p class="main-card-title">{{ promo.description }}</p>
               <p class="main-card-description">
                 {{ promo.timeSpending }}

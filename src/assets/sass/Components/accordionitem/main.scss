@@ -117,12 +117,17 @@
 
   .accordion-item-text-container {
     width: 60%;
-    padding: 8px 11px;
-
+    padding: 2px 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     img {
       position: absolute;
-      right: 10px;
+      left: 10px;
       bottom: 10px;
+      border-radius: 4px;
+      width: 116px;
+      height: 100px;
     }
 
     .accordion-item-text-head {
@@ -151,8 +156,8 @@
     .accordion-item-price {
       font-size: 20px;
       line-height: 20px;
-      color: $primary-color;
-      font-weight: 500;
+      color: #000000;
+      font-weight: 600;
       margin: 5px 0;
     }
   }

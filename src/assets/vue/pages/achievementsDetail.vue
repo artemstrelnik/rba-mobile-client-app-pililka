@@ -2,7 +2,7 @@
   <div class="page">
     <f7-navbar>
       <f7-nav-left>
-        <f7-link icon-f7="chevron_left" @click="getBack"></f7-link>
+        <f7-link color="black" icon-f7="chevron_left" @click="getBack"></f7-link>
       </f7-nav-left>
       <f7-nav-title>
         {{ CONFIG.COMPANY_NAME }}
@@ -37,7 +37,7 @@
                   : 'achievement-detail-info active'
               "
             >
-              <p class="achievement-detail-level">
+              <p class="achievement-detail-level" style="color: black">
                 {{ item.name }}
               </p>
 
@@ -77,7 +77,8 @@
 
     <div v-if="data.desc" class="achievement-detail-footer">
       <div class="achievement-detail-icon-container">
-        <f7-icon class="achievement-detail-icon" material="info" />
+        <img :src="require('./../../images/info-icon.svg').default" />
+        <!-- <f7-icon class="achievement-detail-icon" material="info" /> -->
       </div>
       <p class="achievement-detail-text">
         {{ data.desc }}
